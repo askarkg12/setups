@@ -70,7 +70,4 @@ set nu
 set list
 set mouse=a
 
-let g:vimspector_enable_mappings = 'HUMAN'
-packadd! vimspector
-
 autocmd BufWritePre *.py Black
